@@ -1,8 +1,31 @@
-# React + Vite
+# Email OTP verification
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting started
 
-Currently, two official plugins are available:
+![Lesson image](./public/email-otp.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with this project, run
+
+```bash
+git clone https://github.com/Vishakha-Sawra/react-otp-generate.git
+```
+
+and copy the .env.example variables present in the server folder into a separate .env file, fill them out & and then Navigate to the server folder:
+
+```bash
+  cd server
+```
+
+And run the command **npm start** to start the server, and it will run on localhost:4000
+
+```bash
+  npm start
+```
+
+Then in the root folder run the command  npm run dev to start the frontend part of this application and it will start on: http://localhost:5173/
+
+```bash
+  npm run dev
+```
+
+And that's all you need to run this entire application.  
